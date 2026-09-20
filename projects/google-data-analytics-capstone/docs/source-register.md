@@ -13,7 +13,7 @@ Sources are classified as:
 
 | ID | Source | Dataset | Year / Version | Scope | Project Role | Status |
 |---|---|---|---|---|---|---|
-| P01 | [National Telecommunications and Information Administration (NTIA)](https://www.ntia.gov/page/download-ntia-internet-use-survey-datasets) | Internet Use Survey | 2023 | United States; approximately 44,000 interviewed households; person-level questions for household members age 3+ | Analyze internet access, device use, digital participation, and demographic differences | To acquire |
+| P01 | [National Telecommunications and Information Administration (NTIA)](https://www.ntia.gov/page/download-ntia-internet-use-survey-datasets) | Internet Use Survey | 2023 | United States; 126,917 person-level records in downloaded CSV; 1,037 variables | Analyze internet access, device use, digital participation, and demographic differences | Acquired |
 | P02 | [Open Repair Alliance](https://openrepair.org/open-data/downloads/) | Open Repair Data | ORDS v0.3; data through July 2025 | International; 305,649 electrical and electronic repair attempts | Analyze repair outcomes, product categories, product age, and barriers to successful repair | To acquire |
 
 ---
