@@ -158,3 +158,29 @@ Additional entries will be added when decisions are made regarding:
 - Dataset exclusions
 - Scenario-model assumptions
 - Final recommendations
+
+
+## September 20, 2026 — NTIA Dataset Reduction
+
+**Decision:** Create a reduced working dataset from the original NTIA 2023 Internet Use Survey file.
+
+**Original dataset:**
+- 126,917 records
+- 1,037 variables
+- Original file: `nov23-cps.csv`
+
+**Working dataset:**
+- 96,532 records
+- 15 variables
+- Processed file: `ntia_2023_working.csv`
+
+**Filtering criteria:**
+- Positive `PWSSWGT` survey weight
+- Civilian household members
+- Age 3 or older
+- Eligible for the NTIA Internet Use Supplement
+
+**Reasoning:**  
+The original file contains many CPS variables unrelated to the research questions. Creating a reduced working dataset improves efficiency while preserving the demographic, device-use, internet-use, and survey-weight variables needed for analysis.
+
+The original source file remains unchanged.
