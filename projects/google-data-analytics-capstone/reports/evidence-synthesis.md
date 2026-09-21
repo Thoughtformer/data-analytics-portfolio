@@ -480,22 +480,64 @@ Compared with landfilling, these factors imply a modeled difference of:
 - Source reduction instead of landfill: 29.85 MTCO2e per short ton
 - Recycling instead of landfill: 1.08 MTCO2e per short ton
 
+### Illustrative WARM Scenario
+
+To demonstrate how the WARM factors could be applied to a future community refurbishment program, this capstone modeled an illustrative scenario involving 500 portable electronic devices.
+
+The scenario assumes:
+
+- 500 devices
+- an average device weight of 2.5 kg
+- a total device mass of 1,250 kg
+- 1.3779 short tons of portable electronics
+
+The device count and average weight are hypothetical assumptions used to demonstrate the calculation. They are not measurements from an operating program.
+
+Using EPA WARM factors:
+
+| Scenario | Modeled avoided emissions |
+|---|---:|
+| Reuse / source reduction instead of landfill | 41.13 MTCO2e |
+| Recycling instead of landfill | 1.49 MTCO2e |
+
+The source-reduction calculation is:
+
+1.3779 short tons × 29.85 MTCO2e per short ton = approximately 41.13 MTCO2e avoided
+
+The recycling calculation is:
+
+1.3779 short tons × 1.08 MTCO2e per short ton = approximately 1.49 MTCO2e avoided
+
 ### Interpretation
 
-These factors allow the capstone to model potential greenhouse-gas benefits if the weight of devices diverted through reuse or recycling is known or reasonably estimated.
+Under the EPA WARM framework, extending the useful life of portable electronics can produce substantially larger modeled greenhouse-gas benefits than recycling alone because source reduction accounts for avoided upstream manufacturing and material-production impacts.
 
-The Environmental Protection Agency explicitly identifies extending the useful life of electronics or using donated electronics instead of purchasing new products as examples of source reduction.
+This scenario demonstrates how environmental benefits could be quantified once actual program data becomes available.
 
-This makes WARM a suitable framework for estimating the potential environmental benefit of the proposed refurbishment model.
+A future pilot could replace the illustrative inputs with measured values for:
 
-Any estimate produced for this capstone should still be labeled as a modeled scenario rather than a measured program outcome.
-
-The calculation depends on assumptions about:
-
+- number of devices received
+- number of devices successfully reused
 - device weight
-- number of devices reused
-- whether reuse actually displaces purchase of another device
-- the alternative end-of-life pathway
+- number of devices recycled
+- disposition of unrecoverable devices
+
+The analysis could then produce a program-specific WARM estimate.
+
+The current 41.13 MTCO2e and 1.49 MTCO2e results must not be presented as environmental savings already achieved by the proposed program.
+
+They are modeled scenario outputs based on hypothetical device volume and weight.
+
+The calculation also depends on the assumption that reuse represents source reduction under the WARM framework and that the modeled alternative pathway is landfilling.
+
+### Reproducibility
+
+The scenario calculation is preserved in:
+
+- `analysis/scripts/warm_reuse_scenario.py`
+- `analysis/results/warm_reuse_scenario.csv`
+
+This allows the assumed device count and average weight to be replaced later with measured or alternative scenario values without manually recalculating the results.
 
 ### Sources
 
