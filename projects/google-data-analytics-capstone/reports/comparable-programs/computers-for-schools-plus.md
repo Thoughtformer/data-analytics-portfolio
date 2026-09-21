@@ -119,6 +119,17 @@ It complements the capstone's original analyses:
 
 ## Source
 
+## Source
+
 Innovation, Science and Economic Development Canada.  
 *Evaluation of Computers for Schools Plus (CFS+) and Computers for Schools Intern (CFSI) Programs.*  
 June 2023.
+
+Full evaluation:  
+https://www.ised-isde.canada.ca/site/audits-evaluations/en/evaluation/evaluation-computers-schools-plus-cfs-and-computer-schools-intern-cfsi-programs
+
+Evaluation summary:  
+https://ised-isde.canada.ca/site/audits-evaluations/en/evaluation/summary-evaluation-computers-schools-plus-cfs-and-computer-schools-intern-cfsi-programs
+
+PDF summary:  
+https://ised-isde.canada.ca/site/audits-evaluations/sites/default/files/attachments/2023/SummaryCFSCFSIEvaluationen.pdf
