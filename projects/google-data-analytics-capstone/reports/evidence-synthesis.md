@@ -151,27 +151,81 @@ The data does not establish how often addressing these barriers would result in 
 
 ---
 
-## 4. Youth Technical Training
+## 4. Digital-Literacy Cost and Employment Evidence
 
-The Canadian Computers for Schools Plus and Computers for Schools Intern programs demonstrate that device refurbishment can be integrated with youth technical training.
+Additional program evaluations provide useful benchmarks for the cost and potential workforce effects of digital-literacy services.
 
-During the evaluated 2016–2022 period:
+### Cost per Participant
 
-- more than 475,000 refurbished devices were distributed
-- 1,674 youth interns participated
+Innovation, Science and Economic Development Canada's evaluation of the Digital Literacy Exchange Program examined 36 funded digital-literacy projects serving underrepresented populations.
 
-Surveyed interns reported gaining:
+As of June 2021, reported project-level cost per participant ranged from:
 
-- hardware repair and refurbishment skills: 96%
-- interpersonal and teamwork skills: 92%
-- problem-solving skills: 86%
-- organizational skills: 82%
+- $3
+- to $3,165
+
+The average across projects was $394 per participant.
+
+Costs varied substantially according to factors including:
+
+- urban versus rural delivery
+- travel requirements
+- in-person versus online instruction
+- curriculum development
+- instructor training
+- equipment purchases
+
+At the overall program level, expanded reach resulted in an estimated cost of $73 per participant, compared with an originally forecast cost of $185.
+
+One library case study reported that transitioning its Digital Academy to virtual delivery reduced the cost of reaching participants from more than $150 to less than $25 per participant.
 
 ### Interpretation
 
-This demonstrates operational feasibility for combining refurbishment work with youth workforce development.
+These figures provide real-world cost benchmarks for digital-literacy programming.
 
-The reported employment and education outcomes are descriptive and should not be treated as causal effects of the program.
+They do not establish the likely cost of the proposed community technology initiative because its service mix would differ substantially.
+
+In particular, personalized in-person support, device refurbishment, equipment, and hands-on technical training may carry different costs than large-scale virtual instruction.
+
+The evidence therefore narrows the cost-information gap but does not eliminate the need for local cost measurement.
+
+### Employment Outcomes
+
+A 2025 RAND Corporation pilot study evaluated participants completing Byte Back's job-oriented Computer Foundations 1 digital-literacy course.
+
+Following course completion:
+
+- daily computer use doubled
+- perceived computer proficiency increased significantly
+- employment rates nearly tripled
+
+RAND cautioned that concurrent participation in employment-related services may have contributed to the employment increase.
+
+Nearly all surveyed respondents also reported that they were still actively searching for employment.
+
+### Interpretation
+
+The Byte Back findings support the plausibility that foundational digital skills can contribute to improved labor-market participation.
+
+They do not establish a causal employment effect or guarantee similar outcomes for participants in a different program.
+
+### Sources
+
+Innovation, Science and Economic Development Canada.  
+*Evaluation of the Digital Literacy Exchange Program.*
+
+https://ised-isde.canada.ca/site/audits-evaluations/en/node/223
+
+Evaluation summary PDF:
+
+https://ised-isde.canada.ca/site/audits-evaluations/sites/default/files/documents/2022-06/summary-of-dlep-evaluation_eng_may17.pdf
+
+RAND Corporation.  
+Zuo, George and Omari Jackson.  
+*Assessing the Employment Impacts of Digital Upskilling for Low-Tech Adults: Results from a Pilot Study.*  
+2025.
+
+https://www.rand.org/pubs/research_reports/RRA3912-1.html
 
 ---
 
@@ -198,58 +252,148 @@ The study does not support claims that technology training automatically reduces
 
 ---
 
-## 6. Fraud and Scam Vulnerability
+## 6. Fraud and Scam Prevention
 
 Federal Trade Commission data shows that older adults are not necessarily more likely to report losing money to fraud overall.
 
-However, reported median losses increase substantially with age.
+However, reported median losses increase substantially with age, and older adults are disproportionately represented in some scam categories, including tech-support scams.
 
-In 2024:
+Evidence concerning prevention interventions is mixed but increasingly informative.
 
-- ages 60–69: $691 median reported loss
-- ages 70–79: $1,000
-- ages 80+: $1,650
+### Brief Scam-Identification Training
 
-Older adults were also disproportionately represented in some scam categories, particularly tech-support scams.
+A 2026 randomized study found that brief read-only and interactive scam-education interventions did not significantly improve participants' ability to distinguish fraudulent emails from legitimate emails.
 
-A 2026 randomized scam-education study found that brief educational interventions did not significantly improve participants' ability to distinguish scam emails from legitimate emails.
+The interventions did increase caution.
 
-The interventions did, however, increase caution.
+### Targeted Revictimization Intervention
+
+A randomized controlled trial conducted by researchers affiliated with RTI International and the University of Minnesota in collaboration with the U.S. Postal Inspection Service studied older adults already known to have responded to mail fraud.
+
+Compared with a control group:
+
+- a single fraud-awareness mailing reduced observed revictimization by 8.6%
+- repeated fraud-awareness mailings reduced observed revictimization by 22.4% over four months
+
+Unlike many awareness studies, the outcome was measured using subsequent victim behavior rather than knowledge or self-reported intentions.
+
+### Interactive Scam Education
+
+An experimental anti-scam board-game intervention involving older adults produced significant increases in:
+
+- fraud-prevention self-efficacy
+- awareness of scam situations
+
+Participants also reported significantly lower perceived susceptibility to scams immediately and two weeks after the intervention.
+
+The study did not directly measure subsequent financial losses or confirmed fraud victimization.
+
+### Caregiver-Based Intervention
+
+A pilot randomized trial in rural Michigan examined a financial-exploitation prevention program for family caregivers of older adults with dementia.
+
+The intervention combined education with six case-management sessions.
+
+Caregivers receiving the additional intervention showed greater confidence in addressing financial exploitation, although several other measured outcomes did not significantly differ between groups.
 
 ### Interpretation
 
-Fraud-awareness education is relevant, but it should not be presented as a proven way to make people reliably identify scams.
+The evidence does not support the simple conclusion that fraud education either "works" or "does not work."
 
-A stronger program design may combine education with access to trusted human assistance.
+Results differ according to:
 
+- population
+- intervention format
+- repetition
+- targeting
+- outcome being measured
+
+Brief scam-identification instruction may not make participants reliably accurate at distinguishing fraudulent messages.
+
+However, targeted, reinforced, or behavior-focused interventions have demonstrated improvements in caution, confidence, awareness, and in at least one randomized trial, actual revictimization.
+
+This strengthens the case for combining fraud education with trusted human assistance rather than relying on a single informational lesson.
+
+### Sources
+
+RTI International / University of Minnesota / U.S. Postal Inspection Service.  
+*A Fraud Awareness Mail Campaign Significantly Reduces Rates of Revictimization Among Older Victims.*
+
+https://doi.org/10.1093/geroni/igae098.0367
+
+Study dataset:
+
+https://www.icpsr.umich.edu/web/NACJD/studies/39001
+
+*Reducing Older People's Risk of Fraud Victimization Through an Anti-Scam Board Game.*
+
+https://pubmed.ncbi.nlm.nih.gov/37489649/
+
+*Financial Exploitation Prevention Among Older Adults With Dementia in Rural Michigan: A Pilot Random Control Trial.*
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11689539/
 ---
 
-## 7. Environmental Benefit
+## 7. Environmental Benefit and Quantitative Modeling
 
 The Global E-waste Monitor 2024 estimated that:
 
 - 62 million tonnes of e-waste were generated globally in 2022
 - only 22.3% was formally collected and recycled
 
-The U.S. Environmental Protection Agency identifies reuse and refurbishment as strategies that can:
+The U.S. Environmental Protection Agency identifies longer product lifetimes and use of donated electronics as forms of source reduction.
 
-- extend product life
-- reduce demand for raw materials
-- delay entry into the waste stream
+EPA's Waste Reduction Model (WARM) Version 16 provides greenhouse-gas emission factors for portable electronic devices, a category that includes:
+
+- laptops
+- tablets
+- smartphones
+- basic mobile phones
+- e-readers
+
+For each short ton of portable electronic devices, WARM reports:
+
+| Management pathway | Net emissions |
+|---|---:|
+| Source reduction | -29.83 MTCO2e |
+| Recycling | -1.06 MTCO2e |
+| Landfilling | +0.02 MTCO2e |
+
+Negative values indicate net greenhouse-gas reductions.
+
+Compared with landfilling, these factors imply a modeled difference of:
+
+- Source reduction instead of landfill: 29.85 MTCO2e per short ton
+- Recycling instead of landfill: 1.08 MTCO2e per short ton
 
 ### Interpretation
 
-Repair and reuse have a defensible environmental role.
+These factors allow the capstone to model potential greenhouse-gas benefits if the weight of devices diverted through reuse or recycling is known or reasonably estimated.
 
-This capstone does not directly calculate:
+EPA explicitly identifies extending the useful life of electronics or using donated electronics instead of purchasing new products as examples of source reduction.
 
-- avoided emissions
-- avoided waste tonnage
-- avoided manufacturing
-- local environmental impact
+This makes WARM a suitable framework for estimating the potential environmental benefit of the proposed refurbishment model.
 
-Environmental claims should therefore remain qualitative unless additional modeling is performed.
+Any estimate produced for this capstone should still be labeled as a modeled scenario rather than a measured program outcome.
 
+The calculation depends on assumptions about:
+
+- device weight
+- number of devices reused
+- whether reuse actually displaces purchase of another device
+- the alternative end-of-life pathway
+
+### Source
+
+U.S. Environmental Protection Agency.  
+*Documentation for Greenhouse Gas Emission and Energy Factors Used in the Waste Reduction Model (WARM), Version 16: Electronics.*  
+December 2023.
+
+https://www.epa.gov/system/files/documents/2023-12/warm_electronics_v16_dec.pdf
+
+EPA WARM documentation:
+
+https://www.epa.gov/waste-reduction-model/documentation-chapters-emissions-energy-and-economic-factors-used-waste
 ---
 
 ## 8. Integrated Program Precedents
@@ -320,3 +464,81 @@ PERSONALIZED SUPPORT CAN IMPROVE TECHNOLOGY USE
 TRUSTED SUPPORT MAY ALSO ADDRESS FRAUD CONCERNS
                 ↓
 REUSE CAN EXTEND DEVICE LIFE AND REDUCE WASTE
+
+---
+
+```
+
+# What the Evidence Supports
+
+The available evidence supports the feasibility of a pilot program combining:
+
+- donated-device collection
+- device assessment
+- refurbishment
+- youth technical training
+- redistribution of usable devices
+- personalized technical assistance
+- digital-literacy education
+- scam-awareness support
+- responsible recycling of unrecoverable equipment
+
+The evidence also supports prioritizing populations experiencing measurable access or engagement disparities.
+
+Comparable programs provide additional evidence that these components can be combined operationally rather than treated as completely separate services.
+
+Published evaluations also provide useful benchmarks for:
+
+- digital-literacy delivery costs
+- potential employment-related outcomes
+- fraud-prevention interventions
+- environmental-impact modeling
+
+These benchmarks improve the evidence base but do not replace local measurement.
+
+# What the Evidence Does Not Establish
+
+The analysis does not establish:
+
+- the number of locally available donor devices
+- local demand for each proposed service
+- the percentage of locally donated devices that would be repairable
+- the cost per refurbished device
+- the local cost per participant, although comparable digital-literacy programs provide published cost benchmarks
+- the number of local trainees who would obtain employment, although comparable programs provide evidence of possible labor-market improvement
+- a causal employment effect for the proposed program
+- the degree to which the proposed fraud-prevention model would reduce victimization locally
+- measured environmental savings for the proposed program, although EPA WARM factors allow scenario-based estimates
+- the optimal organizational structure
+- whether the program would be financially self-sustaining
+
+These remaining uncertainties are primarily local implementation questions rather than evidence gaps about whether the individual program components are plausible.
+
+# Evidence-Based Direction
+
+The evidence supports moving from a broad program concept toward a limited pilot rather than assuming full-scale implementation.
+
+A pilot could test:
+
+- local device donation volume
+- local repair yield
+- refurbishment cost per device
+- participant cost
+- trainee participation
+- technical-skill development
+- employment or education follow-up
+- device distribution demand
+- demand for older-adult technical support
+- service utilization
+- participant satisfaction
+- internet-access needs
+- fraud-support utilization
+- equipment and parts requirements
+- recycling volume
+- staffing requirements
+- operating cost
+- potential revenue or funding sources
+
+The strongest contribution of a pilot would be generating local evidence for variables that cannot be reliably inferred from national surveys, international repair-event data, or comparable programs.
+
+The existing evidence is sufficient to justify evaluating an integrated pilot model. It is not sufficient to predict the pilot's local scale, cost structure, financial sustainability, or outcomes in advance.
