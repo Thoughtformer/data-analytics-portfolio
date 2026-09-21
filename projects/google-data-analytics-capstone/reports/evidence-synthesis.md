@@ -508,9 +508,9 @@ https://lacity.gov/news/ourcyclela-distributes-free-computers-internet-low-incom
 
 These programs demonstrate that the proposed combination of services is operationally feasible.
 
-Computers for Schools Plus provides evidence that device refurbishment can be integrated with structured youth technical training and large-scale redistribution. :contentReference[oaicite:0]{index=0}
+Computers for Schools Plus provides evidence that device refurbishment can be integrated with structured youth technical training and large-scale redistribution. 
 
-OurCycle LA provides a U.S.-based precedent showing that refurbishment, workforce training, digital-literacy education, broadband access, device distribution, and electronic-waste reduction can operate within one coordinated initiative. :contentReference[oaicite:1]{index=1}
+OurCycle LA provides a U.S.-based precedent showing that refurbishment, workforce training, digital-literacy education, broadband access, device distribution, and electronic-waste reduction can operate within one coordinated initiative. 
 
 They do not establish that the same outcomes would occur in another community.
 
