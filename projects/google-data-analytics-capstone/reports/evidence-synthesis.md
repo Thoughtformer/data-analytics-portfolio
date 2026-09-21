@@ -851,6 +851,17 @@ The analysis does not establish:
 - the optimal organizational structure
 - whether the program would be financially self-sustaining
 
+### Evidence-Selection Limitation
+
+This review may also be affected by publication and search bias.
+
+Published evaluations, government reports, and peer-reviewed studies are more likely to document programs that were sufficiently established, funded, evaluated, or noteworthy to receive formal attention.
+
+Programs with weak results, unsuccessful implementation, limited documentation, or no formal evaluation may therefore be underrepresented in the available evidence.
+
+The evidence base may also reflect search bias because the sources included in this capstone were identified through targeted searches for programs and studies relevant to the proposed model.
+
+For that reason, the collection of comparable programs should be interpreted as evidence that the model is feasible in some settings, not as evidence that similar programs usually succeed.
 These remaining uncertainties are primarily local implementation questions rather than evidence gaps about whether the individual program components are plausible.
 
 ---
