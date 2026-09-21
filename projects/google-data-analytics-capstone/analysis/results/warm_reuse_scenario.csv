@@ -1,0 +1,3 @@
+scenario,device_count,average_device_weight_kg,total_weight_kg,total_weight_short_tons,warm_difference_mtco2e_per_short_ton,modeled_avoided_mtco2e
+Reuse / source reduction instead of landfill,500,2.5,1250.0,1.3779,29.849999999999998,41.13
+Recycling instead of landfill,500,2.5,1250.0,1.3779,1.08,1.49
