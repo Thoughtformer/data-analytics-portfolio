@@ -1,0 +1,67 @@
+scope,end_of_life_records,documented_barrier_records,barrier_documentation_pct,barrier,barrier_count,barrier_pct_of_documented
+All technology,11560,3883,33.6,Repair information not available,891,22.9
+All technology,11560,3883,33.6,Spare parts not available,732,18.9
+All technology,11560,3883,33.6,Spare parts too expensive,702,18.1
+All technology,11560,3883,33.6,Item too worn out,609,15.7
+All technology,11560,3883,33.6,No way to open product,489,12.6
+All technology,11560,3883,33.6,Lack of equipment,460,11.8
+Battery/charger/adapter,1494,579,38.8,No way to open product,147,25.4
+Battery/charger/adapter,1494,579,38.8,Item too worn out,139,24.0
+Battery/charger/adapter,1494,579,38.8,Repair information not available,104,18.0
+Battery/charger/adapter,1494,579,38.8,Spare parts not available,81,14.0
+Battery/charger/adapter,1494,579,38.8,Lack of equipment,57,9.8
+Battery/charger/adapter,1494,579,38.8,Spare parts too expensive,51,8.8
+Desktop computer,431,115,26.7,Repair information not available,40,34.8
+Desktop computer,431,115,26.7,Spare parts too expensive,21,18.3
+Desktop computer,431,115,26.7,Lack of equipment,19,16.5
+Desktop computer,431,115,26.7,Spare parts not available,18,15.7
+Desktop computer,431,115,26.7,Item too worn out,14,12.2
+Desktop computer,431,115,26.7,No way to open product,3,2.6
+Flat screen,1456,508,34.9,Spare parts too expensive,160,31.5
+Flat screen,1456,508,34.9,Repair information not available,127,25.0
+Flat screen,1456,508,34.9,Spare parts not available,105,20.7
+Flat screen,1456,508,34.9,Lack of equipment,46,9.1
+Flat screen,1456,508,34.9,Item too worn out,43,8.5
+Flat screen,1456,508,34.9,No way to open product,27,5.3
+Games console,269,113,42.0,Repair information not available,27,23.9
+Games console,269,113,42.0,Spare parts not available,23,20.4
+Games console,269,113,42.0,Lack of equipment,18,15.9
+Games console,269,113,42.0,No way to open product,16,14.2
+Games console,269,113,42.0,Spare parts too expensive,15,13.3
+Games console,269,113,42.0,Item too worn out,14,12.4
+Laptop,1895,533,28.1,Spare parts too expensive,167,31.3
+Laptop,1895,533,28.1,Repair information not available,95,17.8
+Laptop,1895,533,28.1,No way to open product,74,13.9
+Laptop,1895,533,28.1,Spare parts not available,73,13.7
+Laptop,1895,533,28.1,Lack of equipment,67,12.6
+Laptop,1895,533,28.1,Item too worn out,57,10.7
+Mobile,806,248,30.8,Lack of equipment,49,19.8
+Mobile,806,248,30.8,Spare parts too expensive,49,19.8
+Mobile,806,248,30.8,Repair information not available,48,19.4
+Mobile,806,248,30.8,Spare parts not available,46,18.5
+Mobile,806,248,30.8,Item too worn out,29,11.7
+Mobile,806,248,30.8,No way to open product,27,10.9
+PC accessory,475,141,29.7,Spare parts not available,37,26.2
+PC accessory,475,141,29.7,Repair information not available,35,24.8
+PC accessory,475,141,29.7,Item too worn out,20,14.2
+PC accessory,475,141,29.7,No way to open product,20,14.2
+PC accessory,475,141,29.7,Lack of equipment,17,12.1
+PC accessory,475,141,29.7,Spare parts too expensive,12,8.5
+Printer/scanner,2007,664,33.1,Repair information not available,197,29.7
+Printer/scanner,2007,664,33.1,Spare parts not available,117,17.6
+Printer/scanner,2007,664,33.1,Item too worn out,103,15.5
+Printer/scanner,2007,664,33.1,Spare parts too expensive,99,14.9
+Printer/scanner,2007,664,33.1,Lack of equipment,79,11.9
+Printer/scanner,2007,664,33.1,No way to open product,69,10.4
+TV and gaming-related accessories,1812,705,38.9,Spare parts not available,180,25.5
+TV and gaming-related accessories,1812,705,38.9,Repair information not available,169,24.0
+TV and gaming-related accessories,1812,705,38.9,Item too worn out,150,21.3
+TV and gaming-related accessories,1812,705,38.9,Spare parts too expensive,79,11.2
+TV and gaming-related accessories,1812,705,38.9,Lack of equipment,71,10.1
+TV and gaming-related accessories,1812,705,38.9,No way to open product,56,7.9
+Tablet,915,277,30.3,Spare parts not available,52,18.8
+Tablet,915,277,30.3,No way to open product,50,18.1
+Tablet,915,277,30.3,Repair information not available,49,17.7
+Tablet,915,277,30.3,Spare parts too expensive,49,17.7
+Tablet,915,277,30.3,Item too worn out,40,14.4
+Tablet,915,277,30.3,Lack of equipment,37,13.4
