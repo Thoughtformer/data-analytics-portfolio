@@ -684,6 +684,56 @@ They do not establish that the same outcomes would occur in another community.
 
 ---
 
+
+---
+
+## 9. Evidence Quality and Study Design
+
+The sources used in this capstone vary substantially in design, scale, and ability to support causal conclusions.
+
+The following table distinguishes descriptive evidence, program evaluations, experimental studies, and modeled scenarios.
+
+| Evidence source | Evidence type | Scale / sample | Primary use in this capstone | Causal inference? | Key limitation |
+|---|---|---:|---|---|---|
+| [NTIA Internet Use Survey, November 2023](https://www.ntia.gov/page/download-ntia-internet-use-survey-datasets) | National cross-sectional survey | 96,532 person records in the primary capstone working dataset; additional household and random-respondent subsets | Measures technology-use and digital-engagement disparities by income, age, education, and geography | No | Associations cannot establish why disparities exist or whether a specific intervention would reduce them |
+| [Open Repair Alliance ORDS v0.3](https://openrepair.org/open-data/downloads/) | Administrative / observational repair-event data | 47,024 technology records; 23,612 core digital-access-device records | Measures observed repair outcomes and end-of-life barriers | No | Devices brought to community repair events are self-selected and are not representative of all discarded electronics |
+| [Digital Literacy Exchange Program](https://ised-isde.canada.ca/site/audits-evaluations/en/node/223) | Government program evaluation | 36 funded projects | Provides real-world digital-literacy delivery and cost benchmarks | No | Large differences in geography, delivery format, and program design limit direct cost comparisons |
+| [RAND / Byte Back](https://www.rand.org/pubs/research_reports/RRA3912-1.html) | Pre/post pilot evaluation | 280 enrolled students | Examines changes in digital proficiency, computer use, and employment following foundational digital-skills training | No | No control group; concurrent employment services and attrition prevent strong causal conclusions |
+| [Tech Allies](https://pubmed.ncbi.nlm.nih.gov/32141373/) | Pragmatic randomized pilot trial | 83 participants: 44 intervention, 39 waitlist | Tests tablet, broadband, and one-on-one technology training for socially isolated older adults | Limited experimental evidence | Small pilot sample and specialized population limit generalizability |
+| [FTC Consumer Sentinel Network Data Book 2024](https://www.ftc.gov/reports/consumer-sentinel-network-data-book-2024) | Administrative complaint/reporting data | Large national reporting database; age available for only a subset of reports | Describes reported fraud-loss patterns by age | No | Fraud is underreported and reporting behavior may differ across populations |
+| [Spot the Scam](https://pubmed.ncbi.nlm.nih.gov/41772760/) | Randomized experimental study | Younger and older adult participants assigned to education or control conditions | Tests whether brief scam education improves email-scam detection | Yes, for measured experimental outcomes | Experimental email judgments may not represent real-world financial decisions or other scam types |
+| [Fraud Awareness Mail Campaign](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11689558/) | Randomized controlled trial | Known older mail-fraud victims randomized to one of two interventions or control | Tests whether targeted fraud-awareness mailings reduce observed revictimization | Yes, for measured revictimization outcome | Specialized population of known prior mail-fraud victims limits broader generalization |
+| [Anti-Scam Board Game](https://pubmed.ncbi.nlm.nih.gov/37489649/) | Controlled experimental intervention | 109 older adults: 55 experimental, 54 control | Tests effects of interactive scam education on self-efficacy, awareness, and perceived susceptibility | Experimental evidence for measured psychological outcomes | Did not directly measure confirmed fraud losses or later victimization |
+| [Rural Michigan Financial-Exploitation Prevention Trial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11689539/) | Pilot randomized controlled trial | 55 family caregivers: 32 intervention, 23 control | Tests education plus case management for financial-exploitation prevention | Yes, for measured pilot outcomes | Small caregiver sample involving older adults with dementia; several outcomes showed no significant group difference |
+| [Computers for Schools Plus / CFSI](https://www.ised-isde.canada.ca/site/audits-evaluations/en/evaluation/evaluation-computers-schools-plus-cfs-and-computer-schools-intern-cfsi-programs) | Government program evaluation | More than 475,000 devices distributed; 1,674 youth interns | Demonstrates integration of refurbishment, device distribution, and youth technical training at scale | No | Program outcomes are descriptive and Canadian operating conditions may not transfer directly to a U.S. community |
+| [OurCycle LA](https://s42263.pcdn.co/wp-content/uploads/2019/09/LA-Cleantech-CityofLA_OurCycle-LA_Final_Report.pdf) | Municipal pilot / program evaluation | 2,600 computers refurbished and 97 trainees during the initial pilot | Provides a U.S. precedent combining refurbishment, workforce development, access, literacy, and e-waste reduction | No | Single municipal program with substantial partner support and documented implementation challenges |
+| [EPA WARM Version 16](https://www.epa.gov/system/files/documents/2023-12/warm_electronics_v16_dec.pdf) | Lifecycle emissions model | Scenario-based; capstone example uses 500 hypothetical devices | Models potential greenhouse-gas differences among reuse, recycling, and landfill pathways | Not applicable | Results depend on model assumptions and hypothetical or measured input values; they are not observed program outcomes |
+| [Global E-waste Monitor 2024](https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-waste-Monitor-2024.aspx) | International statistical assessment | Global e-waste estimates | Establishes broader environmental context for electronics reuse and recycling | No | Global estimates do not measure local Texas e-waste volumes or impacts |
+
+### Interpretation
+
+The capstone does not treat all evidence as equally strong.
+
+The NTIA and Open Repair analyses provide strong descriptive evidence for the existence of access disparities and observed repair potential, but they do not establish causal effects.
+
+Program evaluations such as Computers for Schools Plus, Digital Literacy Exchange Program, Byte Back, and OurCycle LA provide evidence of operational feasibility, costs, and observed outcomes, but generally cannot determine whether the programs themselves caused those outcomes.
+
+Randomized studies provide stronger causal evidence for specific interventions and measured outcomes. However, several are pilot studies with relatively small or specialized samples, so their results should not automatically be generalized to the proposed community program.
+
+EPA WARM occupies a different category. It is a modeling framework rather than an intervention study. Its value is in producing reproducible scenario estimates using defined assumptions, not in measuring an observed local environmental effect.
+
+Taken together, the evidence is strongest when used to establish:
+
+- the existence of measurable digital-access and engagement disparities
+- the practical repair potential of devices entering community repair settings
+- the feasibility of integrating refurbishment with training and access programs
+- the potential effectiveness of selected personalized or targeted interventions
+- plausible cost and environmental benchmarks
+
+The evidence is weaker for predicting the exact magnitude of outcomes that would occur in a new local program.
+
+---
+
 # Overall Evidence Chain
 
 The evidence supports the following sequence:
