@@ -558,7 +558,9 @@ The pattern is not strictly linear:
 - 2023: 72.2%; 25.2%
 - 2024: 71.3%; 26.5%
 
-These changes should not be interpreted as proof that electronic devices became less repairable over time. The composition of participating repair organizations, countries, product categories, and devices may also have changed during the period.
+These changes should not be interpreted as proof that electronic devices became less repairable over time.
+
+The composition of participating repair organizations, countries, product categories, and devices may also have changed during the period.
 
 ---
 
@@ -580,7 +582,111 @@ Modeled results:
 
 The device count and average device weight are illustrative assumptions, not measured program data.
 
-The emissions factors come from EPA WARM Version 16. Results are modeled scenarios rather than observed environmental outcomes.
+The emissions factors come from EPA WARM Version 16.
+
+Results are modeled scenarios rather than observed environmental outcomes.
+
+---
+
+## SQL Validation Results
+
+### `openrepair_core_device_outcomes_sql.csv`
+
+BigQuery validation of repair outcomes for the four core digital-access device categories:
+
+- Laptop
+- Desktop computer
+- Mobile
+- Tablet
+
+Validated results:
+
+- Total records: 23,612
+- Fixed: 12,493
+- Repairable: 6,205
+- End of life: 4,047
+- Unknown: 867
+- Fixed or repairable: 18,698
+- Fixed or repairable: 79.2%
+
+These values reproduce the corresponding Python analysis.
+
+`Repairable` does not mean that a repair was completed. It indicates that reasonable next steps toward repair were identified.
+
+Source query:
+
+`analysis/sql/openrepair_core_device_outcomes.sql`
+
+---
+
+### `openrepair_core_device_barriers_sql.csv`
+
+BigQuery validation of documented end-of-life repair barriers among core digital-access devices.
+
+Validated population:
+
+- End-of-life records: 4,047
+- Records with a documented barrier: 1,173
+- Barrier documentation rate: 29.0%
+
+Among documented barriers:
+
+- Spare parts too expensive: 24.4%
+- Repair information not available: 19.8%
+- Spare parts not available: 16.1%
+- Lack of equipment: 14.7%
+- No way to open product: 13.1%
+- Item too worn out: 11.9%
+
+The SQL analysis reproduces the corresponding Python result.
+
+Because 71.0% of end-of-life records do not contain a documented barrier, the barrier distribution applies only to records where a barrier was reported.
+
+Source query:
+
+`analysis/sql/openrepair_core_device_barriers.sql`
+
+---
+
+### `ntia_household_income_technology_use_sql.csv`
+
+BigQuery validation of weighted household technology-use estimates by household/family income.
+
+This analysis uses the NTIA household survey weight:
+
+`HWHHWGT`
+
+The SQL query calculates weighted percentages using variable-specific eligible-response denominators.
+
+#### Key Finding
+
+Weighted household laptop use rises from:
+
+- 41.2% among households earning under $25,000
+- to 84.6% among households earning $150,000 or more
+
+This represents a 43.4 percentage-point difference.
+
+The query also reproduces weighted estimates for:
+
+- Desktop computer use
+- Tablet use
+- Mobile-phone use
+- Home internet use
+
+Lowest-income to highest-income results:
+
+- Laptop: 41.2% to 84.6%
+- Desktop: 15.0% to 41.3%
+- Tablet: 28.0% to 60.7%
+- Mobile: 74.2% to 90.1%
+- Home internet: 71.0% to 90.3%
+
+The SQL results reproduce the corresponding Python household analysis.
+
+Source query:
+
+`analysis/sql/ntia_household_income_technology_use.sql`
 
 ---
 
@@ -600,9 +706,11 @@ For technology-use variables, survey responses are generally coded as:
 - `2` = No
 - `-1` = Not in universe
 
-Records coded `-1` are excluded from eligible denominators rather than treated as "No."
+Records coded `-1` are excluded from eligible denominators rather than treated as No.
 
 Weighted percentages are calculated using the appropriate survey weight for each analysis.
+
+---
 
 ### Open Repair Analysis
 
@@ -614,6 +722,8 @@ The source data represent devices brought to participating community repair orga
 
 Results should therefore be interpreted as descriptive evidence from observed repair events rather than as representative estimates for all discarded electronics or U.S. households.
 
+---
+
 ### Environmental Scenario
 
 `warm_reuse_scenario.csv` is an illustrative modeled scenario based on U.S. Environmental Protection Agency (EPA) Waste Reduction Model (WARM) Version 16 factors for portable electronic devices.
@@ -621,6 +731,8 @@ Results should therefore be interpreted as descriptive evidence from observed re
 The assumed device count and average device weight are scenario inputs rather than measured program outcomes.
 
 The current WARM scenario applies only to portable electronic devices and does not include desktop central processing units (CPUs).
+
+---
 
 ### SQL Validation
 
@@ -631,24 +743,23 @@ Current BigQuery environment:
 - Google Cloud project: `data-analytics-capstone-509318`
 - BigQuery dataset: `capstone_analysis`
 - Open Repair table: `openrepair_technology`
+- NTIA household table: `ntia_2023_household`
 
-SQL validation is intended to demonstrate:
+SQL validation demonstrates:
 
-- `SELECT`
-- `WHERE`
-- `IN`
-- `GROUP BY`
-- `COUNT`
-- `SUM`
-- `CASE`
+- filtering
+- grouping
+- aggregation
 - conditional aggregation
 - percentage calculations
-- ordering and ranking
+- ordering
+- window aggregation
 - weighted survey calculations
+- valid-response denominator handling
 
 SQL does not reimplement every Python analysis.
 
-Instead, it independently validates selected findings used in the final capstone.
+Instead, it independently reproduces selected findings from the processed datasets used in the final capstone.
 
 ---
 
@@ -697,6 +808,12 @@ Current Python analysis files include:
 SQL validation queries are stored in:
 
 `analysis/sql/`
+
+Current SQL files include:
+
+- `openrepair_core_device_outcomes.sql`
+- `openrepair_core_device_barriers.sql`
+- `ntia_household_income_technology_use.sql`
 
 Corresponding SQL result exports are stored in this folder using the `_sql.csv` suffix.
 
