@@ -127,3 +127,52 @@ The raw source file remains unchanged.
 This processed dataset can be recreated using:
 
 `analysis/scripts/prepare_ntia_random_respondent_working.py`
+
+
+
+### `openrepair_technology_working.csv`
+
+Technology-focused working dataset derived from the Open Repair Alliance aggregate dataset.
+
+- Source: Open Repair Data Standard (ORDS) v0.3 aggregate dataset
+- Source period: data through July 2025
+- Records retained: 47,024
+- Variables retained: 12
+
+Included product categories:
+
+- Laptop
+- Desktop computer
+- Mobile
+- Tablet
+- Printer/scanner
+- Flat screen
+- Games console
+- PC accessory
+- Battery/charger/adapter
+- TV and gaming-related accessories
+
+Retained variables:
+
+| Variable | Description |
+|---|---|
+| `id` | Repair record identifier |
+| `data_provider` | Contributing repair organization |
+| `country` | Country code |
+| `product_category` | Standardized product category |
+| `product_category_id` | Product category identifier |
+| `brand` | Product brand |
+| `year_of_manufacture` | Reported or estimated manufacture year |
+| `product_age` | Reported or estimated product age |
+| `repair_status` | Repair outcome |
+| `repair_barrier_if_end_of_life` | Recorded barrier when item reached end of life |
+| `event_date` | Repair event date |
+| `problem` | Reported problem description |
+
+The subset focuses on technology categories relevant to the capstone's device access, refurbishment, and reuse questions.
+
+Product-age fields have substantial missingness and should not be treated as complete.
+
+This processed dataset can be recreated using:
+
+`analysis/scripts/prepare_openrepair_technology_working.py`
