@@ -18,7 +18,7 @@ The evidence reviewed in this capstone supports the feasibility of such a model,
 
 ## 1. Measurable Digital-Access Need
 
-The NTIA Internet Use Survey shows substantial differences in technology use across income, education, and age groups.
+The National Telecommunications and Information Administration (NTIA) Internet Use Survey shows substantial differences in technology use across income, education, and age groups.
 
 ### Household Income
 
@@ -89,6 +89,16 @@ Potential contributing factors may include:
 - personal preference
 - accessibility needs
 
+### Source
+
+National Telecommunications and Information Administration.  
+*Download NTIA Internet Use Survey Datasets.*  
+November 2023 Internet Use Survey / Current Population Survey supplement.
+
+https://www.ntia.gov/page/download-ntia-internet-use-survey-datasets
+
+The percentages reported in this capstone were calculated from the November 2023 public-use dataset rather than copied from published NTIA summary tables.
+
 ---
 
 ## 2. Availability of Repairable Technology
@@ -148,6 +158,18 @@ Some repair failures may be associated with constraints that a structured refurb
 - standardized procedures
 
 The data does not establish how often addressing these barriers would result in a successful repair.
+
+### Source for Sections 2–3
+
+Open Repair Alliance.  
+*Open Repair Data – Data Downloads.*  
+Open Repair Data Standard (ORDS) v0.3 aggregate dataset.
+
+https://openrepair.org/open-data/downloads/
+
+The source aggregate dataset contains 305,649 electronic-equipment repair records and includes data through July 2025.
+
+The repair percentages reported in this capstone were calculated from the technology-focused working subset created from this dataset rather than copied from published Open Repair Alliance summary statistics.
 
 ---
 
@@ -250,6 +272,24 @@ The evidence supports combining device access with personalized support rather t
 
 The study does not support claims that technology training automatically reduces loneliness or produces broad social benefits.
 
+### Sources
+
+Fields, J., et al.  
+*In-Home Technology Training Among Socially Isolated Older Adults: Findings From the Tech Allies Program.*  
+Journal of Applied Gerontology, 40(5), 489–499. 2021.
+
+PubMed:
+
+https://pubmed.ncbi.nlm.nih.gov/32141373/
+
+DOI:
+
+https://doi.org/10.1177/0733464820910028
+
+Free full-text record:
+
+https://escholarship.org/uc/item/qt0qm1k9gh
+
 ---
 
 ## 6. Fraud and Scam Prevention
@@ -259,6 +299,34 @@ Federal Trade Commission data shows that older adults are not necessarily more l
 However, reported median losses increase substantially with age, and older adults are disproportionately represented in some scam categories, including tech-support scams.
 
 Evidence concerning prevention interventions is mixed but increasingly informative.
+
+### Fraud Loss Severity
+
+Federal Trade Commission Consumer Sentinel data for 2024 reported median fraud losses of:
+
+- ages 60–69: $691
+- ages 70–79: $1,000
+- ages 80 and older: $1,650
+
+For comparison, the median reported loss among adults ages 40–49 was $500.
+
+These figures describe reported fraud losses and should not be interpreted as population-level fraud prevalence.
+
+Only a portion of Consumer Sentinel reports contain usable age information.
+
+### Tech-Support Scams
+
+Federal Trade Commission reporting also indicates that adults age 60 and older are disproportionately represented in some fraud categories.
+
+Tech-support scams are particularly relevant to the proposed program because they exploit uncertainty about:
+
+- computers
+- security warnings
+- remote-access requests
+- technical assistance
+- device problems
+
+This creates a direct connection between technical-support services and fraud-prevention needs.
 
 ### Brief Scam-Identification Training
 
@@ -310,11 +378,48 @@ Results differ according to:
 
 Brief scam-identification instruction may not make participants reliably accurate at distinguishing fraudulent messages.
 
-However, targeted, reinforced, or behavior-focused interventions have demonstrated improvements in caution, confidence, awareness, and in at least one randomized trial, actual revictimization.
+However, targeted, reinforced, or behavior-focused interventions have demonstrated improvements in caution, confidence, awareness, and, in at least one randomized trial, actual revictimization.
 
 This strengthens the case for combining fraud education with trusted human assistance rather than relying on a single informational lesson.
 
+A community technology program could therefore focus on behaviors such as:
+
+- slowing down before responding to unexpected messages
+- independently verifying requests
+- avoiding unsolicited remote-access requests
+- recognizing common tech-support scam patterns
+- consulting a trusted person before acting
+- reporting suspicious communications
+- avoiding irreversible payment methods when a request appears suspicious
+
 ### Sources
+
+Federal Trade Commission.  
+*Consumer Sentinel Network Data Book 2024.*
+
+https://www.ftc.gov/reports/consumer-sentinel-network-data-book-2024
+
+Federal Trade Commission.  
+*Protecting Older Consumers 2024–2025: A Report of the Federal Trade Commission.*  
+December 2025.
+
+https://www.ftc.gov/reports/protecting-older-consumers-2024-2025-report-federal-trade-commission
+
+Report PDF:
+
+https://www.ftc.gov/system/files/ftc_gov/pdf/P144400-OlderAdultsReportDec2025.pdf
+
+Alberts, K. O., Espiritu, I. J., & Castel, A. D.  
+*Spot the Scam: Identifying Email Scams and Scam Susceptibility in Younger and Older Adults.*  
+Experimental Aging Research, 52(4), 483–516. 2026.
+
+PubMed:
+
+https://pubmed.ncbi.nlm.nih.gov/41772760/
+
+DOI:
+
+https://doi.org/10.1080/0361073X.2026.2635903
 
 RTI International / University of Minnesota / U.S. Postal Inspection Service.  
 *A Fraud Awareness Mail Campaign Significantly Reduces Rates of Revictimization Among Older Victims.*
@@ -332,6 +437,7 @@ https://pubmed.ncbi.nlm.nih.gov/37489649/
 *Financial Exploitation Prevention Among Older Adults With Dementia in Rural Michigan: A Pilot Random Control Trial.*
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11689539/
+
 ---
 
 ## 7. Environmental Benefit and Quantitative Modeling
@@ -341,9 +447,17 @@ The Global E-waste Monitor 2024 estimated that:
 - 62 million tonnes of e-waste were generated globally in 2022
 - only 22.3% was formally collected and recycled
 
+The report also identifies factors contributing to continued growth in electronic waste, including:
+
+- increasing consumption of electronic devices
+- shorter product life cycles
+- limited repair options
+- product-design limitations
+- inadequate e-waste management infrastructure
+
 The U.S. Environmental Protection Agency identifies longer product lifetimes and use of donated electronics as forms of source reduction.
 
-EPA's Waste Reduction Model (WARM) Version 16 provides greenhouse-gas emission factors for portable electronic devices, a category that includes:
+The Environmental Protection Agency's Waste Reduction Model (WARM) Version 16 provides greenhouse-gas emission factors for portable electronic devices, a category that includes:
 
 - laptops
 - tablets
@@ -370,7 +484,7 @@ Compared with landfilling, these factors imply a modeled difference of:
 
 These factors allow the capstone to model potential greenhouse-gas benefits if the weight of devices diverted through reuse or recycling is known or reasonably estimated.
 
-EPA explicitly identifies extending the useful life of electronics or using donated electronics instead of purchasing new products as examples of source reduction.
+The Environmental Protection Agency explicitly identifies extending the useful life of electronics or using donated electronics instead of purchasing new products as examples of source reduction.
 
 This makes WARM a suitable framework for estimating the potential environmental benefit of the proposed refurbishment model.
 
@@ -383,7 +497,18 @@ The calculation depends on assumptions about:
 - whether reuse actually displaces purchase of another device
 - the alternative end-of-life pathway
 
-### Source
+### Sources
+
+International Telecommunication Union and United Nations Institute for Training and Research.  
+*The Global E-waste Monitor 2024.*
+
+Official publication page:
+
+https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-waste-Monitor-2024.aspx
+
+International Telecommunication Union publication record:
+
+https://www.itu.int/pub/D-GEN-E_WASTE.01-2024
 
 U.S. Environmental Protection Agency.  
 *Documentation for Greenhouse Gas Emission and Energy Factors Used in the Waste Reduction Model (WARM), Version 16: Electronics.*  
@@ -391,9 +516,10 @@ December 2023.
 
 https://www.epa.gov/system/files/documents/2023-12/warm_electronics_v16_dec.pdf
 
-EPA WARM documentation:
+Environmental Protection Agency WARM documentation:
 
 https://www.epa.gov/waste-reduction-model/documentation-chapters-emissions-energy-and-economic-factors-used-waste
+
 ---
 
 ## 8. Integrated Program Precedents
@@ -508,9 +634,9 @@ https://lacity.gov/news/ourcyclela-distributes-free-computers-internet-low-incom
 
 These programs demonstrate that the proposed combination of services is operationally feasible.
 
-Computers for Schools Plus provides evidence that device refurbishment can be integrated with structured youth technical training and large-scale redistribution. 
+Computers for Schools Plus provides evidence that device refurbishment can be integrated with structured youth technical training and large-scale redistribution.
 
-OurCycle LA provides a U.S.-based precedent showing that refurbishment, workforce training, digital-literacy education, broadband access, device distribution, and electronic-waste reduction can operate within one coordinated initiative. 
+OurCycle LA provides a U.S.-based precedent showing that refurbishment, workforce training, digital-literacy education, broadband access, device distribution, and electronic-waste reduction can operate within one coordinated initiative.
 
 They do not establish that the same outcomes would occur in another community.
 
@@ -534,10 +660,9 @@ PERSONALIZED SUPPORT CAN IMPROVE TECHNOLOGY USE
 TRUSTED SUPPORT MAY ALSO ADDRESS FRAUD CONCERNS
                 ↓
 REUSE CAN EXTEND DEVICE LIFE AND REDUCE WASTE
-
-
-
 ```
+
+---
 
 # What the Evidence Supports
 
@@ -566,6 +691,8 @@ Published evaluations also provide useful benchmarks for:
 
 These benchmarks improve the evidence base but do not replace local measurement.
 
+---
+
 # What the Evidence Does Not Establish
 
 The analysis does not establish:
@@ -578,11 +705,13 @@ The analysis does not establish:
 - the number of local trainees who would obtain employment, although comparable programs provide evidence of possible labor-market improvement
 - a causal employment effect for the proposed program
 - the degree to which the proposed fraud-prevention model would reduce victimization locally
-- measured environmental savings for the proposed program, although EPA WARM factors allow scenario-based estimates
+- measured environmental savings for the proposed program, although Environmental Protection Agency WARM factors allow scenario-based estimates
 - the optimal organizational structure
 - whether the program would be financially self-sustaining
 
 These remaining uncertainties are primarily local implementation questions rather than evidence gaps about whether the individual program components are plausible.
+
+---
 
 # Evidence-Based Direction
 
