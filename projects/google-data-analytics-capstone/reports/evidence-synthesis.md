@@ -186,9 +186,35 @@ As of June 2021, reported project-level cost per participant ranged from:
 - $3
 - to $3,165
 
-The average across projects was $394 per participant.
+The arithmetic mean was $394 per participant.
 
-Costs varied substantially according to factors including:
+However, the distribution was highly uneven:
+
+| Cost per participant | Number of projects |
+|---|---:|
+| $100 or less | 5 |
+| $101–$200 | 9 |
+| $201–$300 | 9 |
+| $301–$400 | 3 |
+| $401–$500 | 1 |
+| $501–$600 | 1 |
+| $601–$700 | 3 |
+| $701–$800 | 2 |
+| $801–$900 | 1 |
+| $901–$1,000 | 0 |
+| More than $1,000 | 2 |
+
+With 36 projects, the median is determined by the 18th and 19th observations when projects are ordered by cost.
+
+The first 14 projects fall at $200 or less, and the next 9 projects fall between $201 and $300. Therefore, both middle observations fall within the $201–$300 range.
+
+The published evaluation does not provide the individual project costs needed to calculate an exact median, so the most precise defensible statement is:
+
+> The median project cost per participant was between $201 and $300.
+
+This is substantially lower than the $394 arithmetic mean, indicating that the mean was pulled upward by a smaller number of relatively high-cost projects.
+
+The evaluation identifies several factors contributing to the variation in cost, including:
 
 - urban versus rural delivery
 - travel requirements
@@ -197,10 +223,34 @@ Costs varied substantially according to factors including:
 - instructor training
 - equipment purchases
 
+The highest-cost project, at $3,165 per participant, served Indigenous communities in rural and remote areas of the Northwest Territories and included substantial travel, curriculum-development, and capacity-building costs.
+
 At the overall program level, expanded reach resulted in an estimated cost of $73 per participant, compared with an originally forecast cost of $185.
 
-One library case study reported that transitioning its Digital Academy to virtual delivery reduced the cost of reaching participants from more than $150 to less than $25 per participant.
+That $73 figure should not be confused with the median project cost. It is a program-wide ratio based on total projected reach after program amendments, whereas the $201–$300 median range describes the distribution of individual project-level costs reported as of June 2021.
 
+One library case study also reported that transitioning its Digital Academy to virtual delivery reduced the cost of reaching participants from more than $150 to less than $25 per participant.
+
+### Interpretation
+
+The cost distribution demonstrates why the arithmetic mean alone is not sufficient for describing these projects.
+
+Although the project-level mean was $394 per participant, at least half of the projects had costs no greater than the $201–$300 range, while a small number of substantially more expensive projects increased the mean.
+
+This indicates a right-skewed cost distribution.
+
+For this capstone, the published figures are best treated as a range of real-world benchmarks rather than as a single expected cost:
+
+- some high-volume or virtual programs operated at very low per-participant cost
+- the median project fell within the $201–$300 range
+- specialized rural or resource-intensive programs could cost substantially more
+- the overall DLEP program achieved a much lower aggregate cost per participant because of its large scale and expanded reach
+
+These figures do not establish the likely cost of the proposed community technology initiative because its service mix would differ substantially.
+
+In particular, personalized in-person support, device refurbishment, equipment, and hands-on technical training may carry different costs than large-scale virtual instruction.
+
+The evidence therefore narrows the cost-information gap but does not eliminate the need for local cost measurement.
 ### Interpretation
 
 These figures provide real-world cost benchmarks for digital-literacy programming.
