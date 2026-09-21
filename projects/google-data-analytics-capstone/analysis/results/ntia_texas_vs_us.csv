@@ -1,0 +1,6 @@
+indicator,analysis_type,us_pct,texas_pct,texas_gap_pp,us_sample_records,texas_sample_records
+Laptop,Technology use,57.0,56.8,-0.2,78870,4550
+Smartphone,Technology use,81.6,84.4,2.8,78870,4550
+Internet at home,Technology use,81.1,82.9,1.7,78870,4550
+Financial services,Digital engagement,77.8,79.8,1.9,35879,2051
+Government services,Digital engagement,40.7,40.3,-0.4,35879,2051
