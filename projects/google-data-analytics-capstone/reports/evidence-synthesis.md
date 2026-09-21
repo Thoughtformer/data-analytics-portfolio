@@ -402,17 +402,46 @@ Two comparable programs provide evidence that multiple components of the propose
 
 ### Computers for Schools Plus
 
-The Canadian program integrates:
+Canada's Computers for Schools Plus (CFS+) and Computers for Schools Intern (CFSI) programs integrate:
 
 - donated-device collection
 - refurbishment
 - youth technical training
-- redistribution
-- reuse
+- device redistribution
+- electronic reuse
+
+The Government of Canada evaluation covering April 2016 through March 2022 found that the programs increased access to computer technology, provided youth with practical technical experience, and reduced the environmental footprint associated with surplus electronic equipment.
+
+During the evaluation period:
+
+- more than 475,000 refurbished devices were distributed
+- 1,674 youth interns participated
+- 96% of surveyed interns reported gaining hardware repair and refurbishment skills
+- 92% reported interpersonal and teamwork skills
+- 86% reported problem-solving skills
+- 82% reported organizational skills
+
+The program demonstrates an operating model in which youth trainees contribute directly to device refurbishment and redistribution.
+
+#### Supporting Sources
+
+Innovation, Science and Economic Development Canada.  
+*Evaluation of Computers for Schools Plus (CFS+) and Computers for Schools Intern (CFSI) Programs.*  
+June 2023.
+
+Full evaluation:
+
+https://www.ised-isde.canada.ca/site/audits-evaluations/en/evaluation/evaluation-computers-schools-plus-cfs-and-computer-schools-intern-cfsi-programs
+
+Evaluation summary:
+
+https://ised-isde.canada.ca/site/audits-evaluations/en/evaluation/summary-evaluation-computers-schools-plus-cfs-and-computer-schools-intern-cfsi-programs
+
+---
 
 ### OurCycle LA
 
-The Los Angeles program integrated:
+OurCycle LA was a City of Los Angeles digital-inclusion initiative that integrated:
 
 - surplus municipal computers
 - refurbishment
@@ -428,21 +457,62 @@ The 2016 pilot reported:
 - 97 people trained in refurbishment-related work
 - 10 jobs created
 - 863 digital-literacy completions
-- 777 end users receiving computers
+- 777 end users receiving refurbished computers
 - 579 new home broadband subscribers
 
-The program also reported implementation challenges involving:
+A later City of Los Angeles update reported:
+
+- more than 3,000 PCs refurbished and distributed
+- more than 100 youth trained in refurbishment and hardware/software configuration
+- nearly 1,000 people participating in digital-literacy training
+- more than 500 refurbished computers and hotspot devices provided to low-income households with K–12 students
+- nearly 200 refurbished computers distributed to older adults in senior housing and community centers
+
+The program also documented implementation challenges involving:
 
 - funding
 - staffing
 - outreach
 - dependence on pro-bono resources
 
+These challenges are important because they show that technical feasibility does not guarantee effective program delivery.
+
+#### Supporting Sources
+
+City of Los Angeles Information Technology Agency.  
+*OurCycle LA.*  
+February 18, 2018.
+
+https://ita.lacity.gov/news/ourcycle-la
+
+City of Los Angeles.  
+*OurCycle LA – Digital Inclusion Pilot Program.*
+
+https://cityclerk.lacity.org/onlinedocs/2013/13-0953_misc_2_06-04-2015.pdf
+
+Los Angeles Cleantech Incubator / California Emerging Technology Fund.  
+*OurCycle LA Final Report.*  
+April 2016.
+
+https://s42263.pcdn.co/wp-content/uploads/2019/09/LA-Cleantech-CityofLA_OurCycle-LA_Final_Report.pdf
+
+City of Los Angeles.  
+*OurCycleLA Distributes Free Computers & Internet to Low-income Families.*  
+August 10, 2017.
+
+https://lacity.gov/news/ourcyclela-distributes-free-computers-internet-low-income-families
+
+---
+
 ### Interpretation
 
 These programs demonstrate that the proposed combination of services is operationally feasible.
 
-They do not establish that the same outcomes would occur in another location.
+Computers for Schools Plus provides evidence that device refurbishment can be integrated with structured youth technical training and large-scale redistribution. :contentReference[oaicite:0]{index=0}
+
+OurCycle LA provides a U.S.-based precedent showing that refurbishment, workforce training, digital-literacy education, broadband access, device distribution, and electronic-waste reduction can operate within one coordinated initiative. :contentReference[oaicite:1]{index=1}
+
+They do not establish that the same outcomes would occur in another community.
 
 ---
 
