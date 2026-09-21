@@ -1,0 +1,7 @@
+income_group,sample_records,email_pct,financial_services_pct,government_services_pct,education_job_training_pct
+Under $25k,4909,83.4,59.3,27.8,15.9
+"$25k-$49,999",7719,88.2,68.3,30.9,18.9
+"$50k-$74,999",6768,92.7,76.5,37.3,23.7
+"$75k-$99,999",4844,94.9,80.5,42.7,25.1
+"$100k-$149,999",5724,96.7,83.2,46.2,29.2
+$150k+,6684,97.8,87.1,52.3,33.2
