@@ -88,3 +88,42 @@ The raw source file remains unchanged.
 This processed dataset can be recreated using:
 
 `analysis/scripts/prepare_ntia_household_working.py`
+
+
+### `ntia_2023_random_respondent_working.csv`
+
+Working dataset derived from the November 2023 NTIA Internet Use Survey / Current Population Survey file for questions asked only of the randomly selected household respondent.
+
+The extract keeps only respondents eligible for the random-respondent internet activity questions and requires a positive `PWPRMWGT` weight.
+
+- Source file: `nov23-cps.csv`
+- Random respondent records: 36,648
+- Variables retained: 16
+- Weight: `PWPRMWGT`
+
+Retained variables:
+
+| Variable | Description |
+|---|---|
+| `hrhhid2` | Household identifier |
+| `gestfips` | State FIPS code |
+| `prtage` | Age |
+| `pesex` | Sex |
+| `peeduca` | Educational attainment |
+| `hefaminc` | Household/family income category |
+| `pemlr` | Labor-force status |
+| `ptdtrace` | Race |
+| `pwprmwgt` | Random-respondent survey weight |
+| `pelaptop` | Laptop use |
+| `pemphone` | Smartphone use |
+| `peinhome` | Internet use at home |
+| `peemail` | Email use |
+| `pefinanc` | Internet use for financial services |
+| `peegovts` | Online access to government services |
+| `peedtrai` | Internet use for education or job training |
+
+The raw source file remains unchanged.
+
+This processed dataset can be recreated using:
+
+`analysis/scripts/prepare_ntia_random_respondent_working.py`
