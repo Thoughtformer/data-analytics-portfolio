@@ -2,60 +2,59 @@
 
 This folder documents the datasets used in the capstone project.
 
-The project will preserve a clear distinction between:
+The project preserves a clear distinction between:
 
 - **Raw source data** — original files obtained from public sources
-- **Processed data** — cleaned, filtered, transformed, or joined datasets created during analysis
-- **Reference data** — supporting tables or lookup files used to interpret or enrich the primary datasets
+- **Processed data** — cleaned, filtered, transformed, or analysis-ready datasets created during the project
+- **Reference data** — supporting documentation, codebooks, or lookup material
 
----
-
-## Planned Primary Datasets
+## Primary Datasets
 
 ### P01 — NTIA Internet Use Survey
 
-**Source:** National Telecommunications and Information Administration (NTIA)
+**Source:** National Telecommunications and Information Administration (NTIA)  
+**Dataset:** 2023 Internet Use Survey  
+**Status:** Acquired and analyzed
 
-**Dataset:** 2023 Internet Use Survey
+**Used to:**
 
-**Purpose:**
+- analyze technology and internet use
+- compare device use across demographic groups
+- evaluate digital engagement by age, income, and education
+- identify measurable technology-access and support gaps
 
-- Analyze internet access and connectivity
-- Examine device use
-- Compare digital participation across demographic groups
-- Identify populations experiencing potential digital-access gaps
-
-**Source page:**  
-https://www.ntia.gov/page/download-ntia-internet-use-survey-datasets
-
-**Status:** To acquire
-
----
+The analysis uses the appropriate survey weights for the working files and measures reported use rather than digital proficiency.
 
 ### P02 — Open Repair Alliance Data
 
-**Source:** Open Repair Alliance
+**Source:** Open Repair Alliance  
+**Dataset:** Open Repair Data  
+**Status:** Acquired and analyzed
 
-**Dataset:** Open Repair Data
+**Used to:**
 
-**Purpose:**
+- analyze repair outcomes
+- filter to laptops, desktops, mobile phones, and tablets
+- examine end-of-life records
+- analyze documented barriers to successful repair
+- evaluate device-reuse potential
 
-- Analyze repair outcomes
-- Compare repair success by product category
-- Examine product age
-- Identify common barriers preventing successful repair
-- Evaluate the potential for extending useful device life through community repair
+Open Repair records are self-selected and are not treated as nationally representative.
 
-**Source page:**  
-https://openrepair.org/open-data/downloads/
+### P03 — EPA Waste Reduction Model (WARM)
 
-**Status:** To acquire
+**Source:** U.S. Environmental Protection Agency (EPA)  
+**Model:** Waste Reduction Model (WARM)  
+**Status:** Used for scenario analysis
 
----
+**Used to:**
+
+- model greenhouse-gas effects for a defined 500-device portable-electronics scenario
+- compare reuse/source reduction and recycling with landfill
+
+The WARM results are modeled estimates, not observed program outcomes.
 
 ## Data Directory Structure
-
-As datasets are acquired, this folder may be organized as:
 
 ```text
 data/
@@ -63,3 +62,6 @@ data/
 ├── raw/
 ├── processed/
 └── reference/
+```
+
+See the project source register and methodology log for detailed source and transformation documentation.
