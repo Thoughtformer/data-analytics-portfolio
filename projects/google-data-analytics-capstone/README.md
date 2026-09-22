@@ -1,5 +1,5 @@
 # Closing the Digital Support Gap
-## A Data-Driven Case for Community Technology Education, Repair, and Reuse
+## Evaluating a Community Technology Pilot Through Public Data
 
 **Google Data Analytics Professional Certificate — Capstone Project**
 
@@ -9,7 +9,13 @@ Complete
 
 ## Project Overview
 
-This capstone evaluates whether public evidence supports a limited community technology pilot that combines device refurbishment and reuse, hands-on technical training, technology access, personalized digital support, older-adult assistance, fraud-awareness support, and electronic-waste reduction.
+This capstone evaluates whether public evidence supports a limited community technology pilot centered on three components:
+
+- device refurbishment and reuse
+- hands-on technical training
+- personalized digital support
+
+Older adults are treated as a priority population because the analysis identifies lower levels of internet-based financial-services use among adults age 65+ across the income groups examined.
 
 The analysis combines national technology-use data, community repair records, environmental scenario modeling, SQL validation, Python analysis, and Tableau visualization. The goal is not to claim that a full-scale program is already proven, but to determine whether the available evidence is strong enough to justify a limited, measurement-focused pilot.
 
@@ -103,17 +109,21 @@ google-data-analytics-capstone/
     ├── supporting-evidence/
     ├── tableau/
     ├── evidence-synthesis.md
-    └── recommendation-framework.md
+    ├── recommendation-framework.md
+    ├── google-data-analytics-capstone-presentation.pdf
+    └── google-data-analytics-capstone-presentation.pptx
 ```
 
 ## Selected Deliverables
 
+- **[Final presentation — PDF](reports/google-data-analytics-capstone-presentation.pdf)**
+- **[Final presentation — PowerPoint](reports/google-data-analytics-capstone-presentation.pptx)**
+- [`reports/tableau/`](reports/tableau/) — Tableau workbook and visualization documentation
 - [`analysis/results/`](analysis/results/) — analysis outputs and validated result tables
 - [`analysis/SQL/`](analysis/SQL/) — BigQuery validation queries
 - [`analysis/scripts/`](analysis/scripts/) — Python analysis scripts
 - [`reports/evidence-synthesis.md`](reports/evidence-synthesis.md) — integrated evidence review
 - [`reports/recommendation-framework.md`](reports/recommendation-framework.md) — decision and pilot framework
-- [`reports/tableau/`](reports/tableau/) — Tableau workbook and visualization documentation
 
 ## Limitations
 
