@@ -2,11 +2,13 @@
 
 ## Project Title
 
-**Closing the Digital Support Gap: A Data-Driven Case for Community Technology Education, Repair, and Reuse**
+**Closing the Digital Support Gap: Evaluating a Community Technology Pilot Through Public Data**
 
 ## Purpose
 
-Evaluate whether public evidence supports a limited community technology pilot that combines device refurbishment and reuse, hands-on technical training, technology access, personalized digital support, older-adult assistance, fraud-awareness support, and electronic-waste reduction.
+Evaluate whether public evidence supports a limited community technology pilot centered on device refurbishment and reuse, hands-on technical training, and personalized digital support.
+
+Older adults are treated as a priority population where the evidence indicates lower digital engagement.
 
 ## Primary Decision Question
 
@@ -35,8 +37,15 @@ The project will recommend a limited pilot only if the evidence demonstrates:
 - Repair outcomes for laptops, desktops, mobile phones, and tablets
 - Documented end-of-life repair barriers
 - Comparable community technology and digital-literacy programs
-- Fraud-awareness and older-adult support evidence
+- Older-adult digital-support evidence
 - Environmental scenario modeling for portable electronic-device reuse and recycling
+- Supporting fraud-awareness research considered during exploratory evidence review
+
+### Final Pilot Components
+
+- Device refurbishment and reuse
+- Hands-on technical training
+- Personalized digital support
 
 ### Excluded
 
