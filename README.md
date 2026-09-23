@@ -53,4 +53,3 @@ Key methods and tools include weighted survey analysis, Python, pandas, PowerShe
 ## Contact
 
 - LinkedIn: https://www.linkedin.com/in/aaron-spoonts-3661ab31a/
-- Email: Aaron.Spoonts@Gmail.com
