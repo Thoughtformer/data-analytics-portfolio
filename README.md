@@ -12,6 +12,7 @@ I’m developing skills in SQL, Python, data visualization, and analytical probl
 
 - SQL
 - Python
+- PowerShell
 - pandas
 - Data cleaning
 - Data visualization
@@ -29,12 +30,13 @@ Completed capstone evaluating whether public evidence supports a limited communi
 **[View the full project](projects/google-data-analytics-capstone/README.md)**  
 **[View the final presentation (PDF)](projects/google-data-analytics-capstone/reports/google-data-analytics-capstone-presentation.pdf)**
 
-Key methods and tools include weighted survey analysis, Python, pandas, SQL validation in BigQuery, Open Repair data analysis, EPA WARM scenario modeling, Tableau, and PowerPoint.
+Key methods and tools include weighted survey analysis, Python, pandas, PowerShell-assisted CSV inspection and querying, SQL validation in BigQuery, Open Repair data analysis, EPA WARM scenario modeling, Tableau, and PowerPoint.
 
 ## Tools
 
 - SQL
 - Python
+- PowerShell — command-line administration, scripting fundamentals, CSV inspection/querying, and AI-assisted workflow acceleration
 - pandas
 - NumPy
 - Jupyter Notebook
