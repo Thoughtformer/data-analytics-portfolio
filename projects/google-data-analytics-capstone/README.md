@@ -68,10 +68,13 @@ The project follows the Google data analysis process:
 - **Python**
 - **pandas**
 - **SQL**
+- **PowerShell** — command-line CSV inspection, filtering, querying, and workflow acceleration
 - **Google BigQuery**
 - **Tableau Desktop Public Edition**
 - **Microsoft PowerPoint**
 - **Git / GitHub**
+
+PowerShell was also used to apply prior IT command-line experience to data analytics work, including rapid inspection and querying of downloaded CSV datasets. AI-assisted scripting helped accelerate syntax development and troubleshooting, while commands, outputs, and analytical results were manually reviewed and validated.
 
 ## SQL Validation
 
