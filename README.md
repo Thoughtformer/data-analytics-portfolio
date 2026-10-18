@@ -4,9 +4,13 @@ Data analytics portfolio featuring projects in SQL, Python, data visualization, 
 
 ## About Me
 
-I'm a creative problem-solver with a technical background and a strong interest in using data to understand systems, identify patterns, and improve processes.
+I bring a varied technical background in systems, troubleshooting, electronics repair and refurbishment, and creative technology. I am working toward a meaningful career transition into AI-related and data-focused work.
 
-I’m developing skills in SQL, Python, data visualization, and analytical problem-solving to turn complex information into clear, useful insights.
+My strongest habits are persistence with complicated problems, listening to feedback, and searching for workable solutions. I am continuing to develop Python, SQL, analytical methods, and my understanding of AI governance and safety. I use AI tools extensively and describe that assistance openly rather than presenting every implementation as independently authored.
+
+**[Personal portfolio](https://thoughtformer.github.io/)** · **[Helm research showcase](https://github.com/Thoughtformer/helm-research)**
+
+Helm is a separate, ongoing learning project in accountable AI-assisted workflows; this repository remains focused on my data analytics work.
 
 ## Skills
 
